@@ -20,7 +20,7 @@ dbusers = mongo.db.users
 dbplanes = mongo.db.planes
 dbclientes = mongo.db.clientes
 
-@app.route('/', methods=['GET'])
+@app.route('/home', methods=['GET'])
 def getHome():
     return jsonify({'msg':'hola'})
 
