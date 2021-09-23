@@ -6,9 +6,6 @@ from pymongo import MongoClient
 # .\venv\Scripts\activate.bat
 # python src/app.py
 
-
-
-
 app = Flask(__name__)
 app.config['MONGO_URI']='mongodb+srv://federico:federico@sportclub.elkxw.mongodb.net/sportclub?retryWrites=true&w=majority'
 mongo = PyMongo(app)
